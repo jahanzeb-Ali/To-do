@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do</title>
+</head>
+<body>
+    <div class="main_container">
+        <div class="container">
+            <h2>Todo List</h2>
+            <div class="input-box">
+                <input type="text"  id="input-fleid">
+                <button id="btn-submit">Submit</button>
+            </div>
+            <ul id="show-list"></ul>
+        </div>
+        <div class="module-box">
+            <h3 id="to_be_edit"></h3>
+            <input type="text"  id="edit_inp_fleid">
+            <button type="button" onclick="updateValue()">Save</button>
+            <!-- <button type="button" onclick="updateValue()">Save</button> -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
